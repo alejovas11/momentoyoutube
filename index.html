@@ -1,58 +1,140 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>YouTube</title>
     <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap"
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/styles.css">
-    <title>youtube</title>
-    <link rel="icon" href="icon/youtbe.ico" />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <div class="contenedor active" id="contenedor">
-		<header class="header">
-			<div class="contenedor-logo">
-				<button id="boton-menu" class="boton-menu"><i class="fas fa-bars"></i></button>
-				<a href="#" class="logo"><i class="fas fa-play"></i> <span>YoutubeTripy</span></a>
-            </div>
-            <div class="barra-busqueda">
-				<input type="text" placeholder="Buscar">
-				<button type="submit"><i class="fas fa-search"></i></button>
-            </div>
-            <div class="botones-header">
-				<button><i class="fas fa-upload"></i></button>
-				<button><i class="fas fa-th"></i></button>
-				<button><i class="fas fa-bell"></i></button>
-				<a href="#" class="avatar"><img src="img/avatar.jpg" alt=""></a>
-			</div>
+      <header class="header">
+        <div class="contenedor-logo">
+          <button id="boton-menu" class="boton-menu">
+            <i class="fas fa-bars"></i>
+          </button>
+          <a href="#" class="logo"
+            ><i class="fas fa-play"></i> <span>YoutubeTripy</span></a
+          >
+        </div>
 
-    <iframe
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/KOv_A61JaUU"
-      frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
+        <div class="barra-busqueda">
+          <input type="text" placeholder="Buscar" />
+          <button type="submit"><i class="fas fa-search"></i></button>
+        </div>
+
+        <div class="botones-header">
+          <button><i class="fas fa-upload"></i></button>
+          <button><i class="fas fa-th"></i></button>
+          <button><i class="fas fa-bell"></i></button>
+          <a href="#" class="avatar"><img src="img/avatar.jpg" alt="" /></a>
+        </div>
+      </header>
+
+      <nav class="menu-lateral">
+        <a href="#" class="active"
+          ><i class="fas fa-home"></i> Página Principal</a
+        >
+        <a href="#"><i class="fas fa-fire"></i> Tendencias</a>
+        <a href="#"><i class="fas fa-star"></i> Suscripciones</a>
+
+        <hr />
+
+        <a href="#"><i class="fas fa-folder"></i> HTML y CSS</a>
+        <a href="#"><i class="fas fa-folder"></i> Responsive Design</a>
+        <a href="#"><i class="fas fa-folder"></i> Bootstrap</a>
+
+        <hr />
+
+        <a href="#"><i class="fas fa-folder"></i> Javascript</a>
+        <a href="#"><i class="fas fa-folder"></i> React</a>
+        <a href="#"><i class="fas fa-folder"></i> PHP y MYSQL</a>
+      </nav>
+
+      <main class="main">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/KOv_A61JaUU"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <h3 class="titulo">Videos Recomendados</h3>
+        <div class="grid-videos">
+          <a href="#" class="video"
+            ><img
+              src="https://via.placeholder.com/500x281?text=Placeholder"
+              alt=""
+          /></a>
+          <a href="#" class="video"
+            ><img
+              src="https://via.placeholder.com/500x281?text=Placeholder"
+              alt=""
+          /></a>
+          <a href="#" class="video"
+            ><img
+              src="https://via.placeholder.com/500x281?text=Placeholder"
+              alt=""
+          /></a>
+          <a href="#" class="video"
+            ><img
+              src="https://via.placeholder.com/500x281?text=Placeholder"
+              alt=""
+          /></a>
+          <a href="#" class="video"
+            ><img
+              src="https://via.placeholder.com/500x281?text=Placeholder"
+              alt=""
+          /></a>
+          <a href="#" class="video"
+            ><img
+              src="https://via.placeholder.com/500x281?text=Placeholder"
+              alt=""
+          /></a>
+          <a href="#" class="video"
+            ><img
+              src="https://via.placeholder.com/500x281?text=Placeholder"
+              alt=""
+          /></a>
+          <a href="#" class="video"
+            ><img
+              src="https://via.placeholder.com/500x281?text=Placeholder"
+              alt=""
+          /></a>
+          <a href="#" class="video"
+            ><img
+              src="https://via.placeholder.com/500x281?text=Placeholder"
+              alt=""
+          /></a>
+          <a href="#" class="video"
+            ><img
+              src="https://via.placeholder.com/500x281?text=Placeholder"
+              alt=""
+          /></a>
+          <a href="#" class="video"
+            ><img
+              src="https://via.placeholder.com/500x281?text=Placeholder"
+              alt=""
+          /></a>
+          <a href="#" class="video"
+            ><img
+              src="https://via.placeholder.com/500x281?text=Placeholder"
+              alt=""
+          /></a>
+        </div>
+      </main>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/2c36e9b7b1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/main.js"></script>
   </body>
-  <script
-    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-    crossorigin="anonymous"
-  ></script>
 </html>
