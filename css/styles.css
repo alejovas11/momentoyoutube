@@ -264,3 +264,7 @@ a {
     grid-template-columns: 1fr;
   }
 }
+button {
+  color: #ff0000;
+  padding: 10px;
+}
